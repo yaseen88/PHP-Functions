@@ -1,3 +1,18 @@
 <?php
 echo '$_SERVER[REQUEST_URI]';
 ?>
+
+<html>
+<body>
+
+<?php
+/*
+$str = "Hello world. It's a beautiful day.";
+$yass = explode(".",$str);
+
+print_r ($yass);
+*/
+echo "$_SERVER[REQUEST_URI]$_SERVER[REQUEST_URI]";
+?>
+</body>
+</html>
